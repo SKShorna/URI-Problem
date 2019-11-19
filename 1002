@@ -1,0 +1,4 @@
+n = 3.14159
+R = float("%.2f"input())
+A = float("%.4f"%(n*R*R))
+print("A={}".format(A))
