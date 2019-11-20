@@ -1,0 +1,6 @@
+name = input()
+salary = float(input())
+sales_total = float(input())
+
+TOTAL =float((sales_total*.15)+salary)
+print("TOTAL = R$ {:.2f}".format(TOTAL))
