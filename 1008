@@ -1,0 +1,6 @@
+number = int(input())
+worked_hours_month = int(input())
+received_per_hour = float(input())
+salary = float(worked_hours_month*received_per_hour)
+print("NUMBER =", number)
+print("SALARY = U$ {:.2f}" .format(salary))
