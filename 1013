@@ -1,0 +1,15 @@
+a, b, s = input().split()
+
+a = int(a)
+b = int(b)
+s = int(s)
+
+max_value = a
+
+if (b>max_value):
+  max_value = b
+
+if(s>max_value):
+  max_value = s 
+
+print("{} eh o maior".format(max_value))
