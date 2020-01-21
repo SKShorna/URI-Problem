@@ -1,0 +1,24 @@
+#code_of_product1 = int(input())
+#number_of_units_product1 = int(input())
+code_of_product1, number_of_units_product1, price_of_one_units_product1 = input().split()
+code_of_product2, number_of_units_product2, price_of_one_units_product2 = input().split()
+# price_of_one_units_product1 = float(input())
+code_of_product1 = int(code_of_product1)
+number_of_units_product1 = int(number_of_units_product1)
+price_of_one_units_product1 = float(price_of_one_units_product1)
+
+
+#code_of_product2 = int(input())
+#number_of_units_product2 = int(input())
+#price_of_one_units_product2 = float(input())
+
+code_of_product2 = int(code_of_product2)
+number_of_units_product2 = int(number_of_units_product2)
+price_of_one_units_product2 = float(price_of_one_units_product2)
+
+num_product1 = float(number_of_units_product1)
+num_product2 = float(number_of_units_product2)
+
+VALOR_A_PAGAR = ((num_product1*price_of_one_units_product1)+(num_product2*price_of_one_units_product2))
+
+print("VALOR A PAGAR: R$ {:.2f}".format(VALOR_A_PAGAR))
