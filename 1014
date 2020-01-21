@@ -1,0 +1,7 @@
+X  = int(input())
+Y = float(input())
+
+X = float(X)
+avg_consumption = (X/Y)
+
+print("{:.3f} km/l".format(avg_consumption))
