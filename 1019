@@ -1,0 +1,8 @@
+second = int(input())
+
+hour = second//3600 # 0 hour if 556 second
+
+second = second%3600 # 556 second reminder
+min = second//60     # 9 min 556//60
+second = second%60   # 16
+print("{}:{}:{}".format(hour, min, second))
