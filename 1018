@@ -1,0 +1,28 @@
+amount = int(input())
+print(amount)
+# //(double slash) will give integer result when divide by odd number like 576//100 = 5
+print("{} nota(s) de R$ 100,00".format(amount//100))
+
+amount = amount%100
+
+print("{} nota(s) de R$ 50,00".format(amount//50))
+
+amount = amount%50
+
+print("{} nota(s) de R$ 20,00".format(amount//20))
+
+amount = amount%20
+
+print("{} nota(s) de R$ 10,00".format(amount//10))
+
+amount = amount%10
+
+print("{} nota(s) de R$ 5,00".format(amount//5))
+
+amount = amount%5
+
+print("{} nota(s) de R$ 2,00".format(amount//2))
+
+amount = amount%2
+
+print("{} nota(s) de R$ 1,00".format(amount//1))
