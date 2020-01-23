@@ -1,0 +1,6 @@
+d = int(input())
+# 30 km....= 60 min
+# 1km......=60/30= 2 min
+time = 2*d
+
+print("{} minutos".format(time))
