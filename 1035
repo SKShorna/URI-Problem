@@ -1,0 +1,21 @@
+A, B, C, D = input().split()
+
+A = int(A)
+B = int(B)
+C = int(C)
+D = int(D)
+
+sum1 = int(C+D)
+sum2 = int(A+B)
+
+#if ((B > C) and (D > A)):
+  # if( sum1 > sum2):
+   #  if(((C and D) > 0) and (A%2==0)):
+    #   print("Valores aceitos")      
+#else: 
+ # print("Valores nao aceitos")
+
+if((B > C) and (D > A) and (sum1 > sum2) and (C and D > 0) and (A % 2 ==0)):
+  print("Valores aceitos")
+else:
+   print("Valores nao aceitos")
