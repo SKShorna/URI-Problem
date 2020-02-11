@@ -1,0 +1,16 @@
+a, b, c = input().split()
+
+a = float(a)
+b = float(b)
+c = float(c)
+sum1 = (a+b)
+sum2 = (b+c)
+sum3 = (c+a)
+
+if ((sum1 > c) and (sum2 > a) and (sum3 > b)):
+  peri = (a+b+c)
+  print("Perimetro = {:.1f}".format(peri))  
+
+else:
+  area = (((a+b)/2)*c)
+  print("Area = {:.1f}".format(area))
