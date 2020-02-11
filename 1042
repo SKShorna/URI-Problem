@@ -1,0 +1,9 @@
+
+arr = input() # takes the whole line of n numbers
+l = list(map(int,arr.split())) 
+l_sorted = sorted(l)
+for x in l_sorted:
+ print(x)
+print("")
+for i in l:
+  print(i)
