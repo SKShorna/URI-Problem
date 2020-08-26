@@ -1,1 +1,35 @@
 
+lst = []
+n = 3
+for i in range (0, n):
+  ele = float(input())
+  lst.append(ele)
+lst.sort(reverse = True)
+#print(lst)
+a = lst[0]
+b = lst[1]
+c = lst[2]
+#print (a, b, c)
+A =pow(a,2)
+B = pow(b,2)
+C = pow(c,2)
+D = B+C
+
+if (a >=b+c):
+  print('NAO FORMA TRIANGULO')
+
+if (A == D):
+  print(" TRIANGULO RETANGULO") 
+
+if (A > D):
+  print("TRIANGULO OBTUSANGULO")
+
+if (A < D):
+  print("TRIANGULO ACUTANGULO")
+
+if ( a == b == c):
+  print("TRIANGULO EQUILATERO")
+
+if(a ==b or b==c or c==a):
+  print("TRIANGULO ISOSCELES")
+
