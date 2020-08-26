@@ -1,0 +1,36 @@
+
+p, q, r = map(float, input().split()) 
+
+lst = []
+lst.append(p)
+lst.append(q)
+lst.append(r) 
+lst.sort(reverse = True)
+a = lst[0]
+b = lst[1]
+c = lst[2]
+
+A =pow(a,2)
+B = pow(b,2)
+C = pow(c,2)
+D = B+C
+
+if (a >=b+c):
+  print('NAO FORMA TRIANGULO')
+
+else:
+  if (A == D):
+    print("TRIANGULO RETANGULO") 
+
+  if (A > D):
+    print("TRIANGULO OBTUSANGULO")
+
+  if (A < D):
+    print("TRIANGULO ACUTANGULO")
+
+  if ( a == b == c):
+    print("TRIANGULO EQUILATERO")
+
+  if (a == b and c!=a) or (b==c and a!=b):
+    print("TRIANGULO ISOSCELES")
+
