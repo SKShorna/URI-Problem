@@ -1,0 +1,11 @@
+a, b = input().split()
+
+a = int(a)
+b = int(b)
+
+if (a < b):
+  time = b-a
+  print("O JOGO DUROU {} HORA(S)". format(time))
+else:
+  time = b+24-a 
+  print("O JOGO DUROU {} HORA(S)". format(time))
