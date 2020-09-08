@@ -1,0 +1,25 @@
+a, b, c, d = input().split()
+
+a = float(a)
+b = float(b)
+c = float(c)
+d = float(d)
+weight = float(2+3+4+1)
+add = float ((a*2)+(b*3)+(c*4)+(d*1))
+media = float(add)/(weight)
+print("Media: {:.1f}".format(media))
+avg =float(media)
+if media >= 7.0:
+  print("Aluno aprovado.")
+elif (media < 5.0):
+  print("Aluno reprovado.")
+elif ((media >=5.0) and( media <= 6.9)):
+  print("Aluno em exame.")
+  e = float(input("Nota do exame:"))
+  med_final = float((avg+e)/2)
+  if (med_final >=5.0):
+    print("Aluno aprovado.")
+    print("Media final: {:.1f}".format(med_final))
+  elif (med_final <=4.9):
+    print("Aluno reprovado.")
+    print("Media final: {:.1f}".format(med_final))
